@@ -2,11 +2,10 @@
 
 EMPTY FOR NOW
 
-A list of user-agents with extracted data from hand. Useful for tests.
+A list of user-agents with extracted data from hand. Useful for tests. Just a tiny bit for now,
+not very useful.
 
 TODO
 
-- SQL format export
-- CSV format export
 - a PHP tester
 - a python tester
