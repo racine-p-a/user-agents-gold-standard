@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : paracinegwmedia.mysql.db
--- Généré le :  sam. 22 fév. 2020 à 22:12
+-- Généré le :  Dim 23 fév. 2020 à 21:01
 -- Version du serveur :  5.6.46-log
 -- Version de PHP :  7.2.19
 
@@ -93,7 +93,16 @@ INSERT INTO `vanitas_user_agents` (`id_user_agent`, `user_agent`, `is_bot`, `bro
 (50, 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 YaBrowser/19.4.0.2397 Yowser/2.5 Safari/537.36', 0, 'Yandex Browser', '19.4.0.2397', 'WebKit', 'Windows', 'Windows 7', 'NT 6.1', '-', NULL),
 (51, 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3588.0 Safari/537.36', 0, 'Google Chrome', '72.0.3588.0', 'Blink', 'Macintosh', 'macOS (Sierra)', '10.12.6', '-', NULL),
 (52, 'Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0', 0, 'Mozilla Firefox', '67.0', 'Gecko', 'Linux', '-', '-', '-', 1),
-(53, 'Scrapy/1.7.2 (+https://scrapy.org)', 1, 'Scrapy', '1.7.2', '-', '-', '-', '-', '-', NULL);
+(53, 'Scrapy/1.7.2 (+https://scrapy.org)', 1, 'Scrapy', '1.7.2', '-', '-', '-', '-', '-', NULL),
+(54, 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0', 0, 'Mozilla Firefox', '54.1', 'Gecko', 'Windows', 'Windows 7', 'NT 6.1', '-', NULL),
+(55, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2952.71', 0, 'Opera', '54.0.2952.71', 'Blink', 'Windows', 'Windows 10', 'NT 10.0', '-', 1),
+(56, 'Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0', 0, 'Mozilla Firefox', '60.0', 'Gecko', 'Linux', '-', '-', '-', 1),
+(57, 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0', 0, 'Mozilla Firefox', '62.0', 'Gecko', 'Linux', 'Ubuntu', '-', '-', 1),
+(58, 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36', 0, 'Google Chrome', '41.0.2227.0', 'Blink', 'Linux', '-', '-', '-', 1),
+(59, 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36', 0, 'Google Chrome', '41.0.2226.0', 'Blink', 'Windows', 'Windows 8.1', 'NT 6.3', '-', NULL),
+(60, 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2225.0 Safari/537.36', 0, 'Google Chrome', '41.0.2225.0', 'Blink', 'Windows', 'Windows 8.1', 'NT 6.3', '-', NULL),
+(61, 'Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/1.0; +http://duckduckgo.com)', 1, 'DuckDuckGo Favicons Bot', '1.0', '-', '-', '-', '-', '-', NULL),
+(62, 'Mozilla/5.0 (compatible; VelenPublicWebCrawler/1.0; +https://velen.io)', 1, 'Velen Public Web Crawler', '1.0', '-', '-', '-', '-', '-', NULL);
 
 --
 -- Index pour les tables déchargées
@@ -114,7 +123,7 @@ ALTER TABLE `vanitas_user_agents`
 -- AUTO_INCREMENT pour la table `vanitas_user_agents`
 --
 ALTER TABLE `vanitas_user_agents`
-  MODIFY `id_user_agent` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=54;
+  MODIFY `id_user_agent` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=63;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

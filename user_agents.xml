@@ -5,7 +5,7 @@
 - https://www.phpmyadmin.net
 -
 - Hôte : paracinegwmedia.mysql.db
-- Généré le :  sam. 22 fév. 2020 à 22:13
+- Généré le :  Dim 23 fév. 2020 à 21:02
 - Version du serveur :  5.6.46-log
 - Version de PHP :  7.2.19
 -->
@@ -31,7 +31,7 @@
                   `is64bits` tinyint(1) DEFAULT NULL,
                   PRIMARY KEY (`id_user_agent`),
                   UNIQUE KEY `user_agent` (`user_agent`)
-                ) ENGINE=InnoDB AUTO_INCREMENT=54 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+                ) ENGINE=InnoDB AUTO_INCREMENT=63 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
             </pma:table>
         </pma:database>
     </pma:structure_schemas>
@@ -645,6 +645,123 @@
             <column name="is_bot">1</column>
             <column name="browser_name">Scrapy</column>
             <column name="browser_version">1.7.2</column>
+            <column name="rendering_engine">-</column>
+            <column name="operating_system_family">-</column>
+            <column name="operating_system_name">-</column>
+            <column name="operating_system_version">-</column>
+            <column name="device">-</column>
+            <column name="is64bits">NULL</column>
+        </table>
+        <table name="vanitas_user_agents">
+            <column name="id_user_agent">54</column>
+            <column name="user_agent">Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</column>
+            <column name="is_bot">0</column>
+            <column name="browser_name">Mozilla Firefox</column>
+            <column name="browser_version">54.1</column>
+            <column name="rendering_engine">Gecko</column>
+            <column name="operating_system_family">Windows</column>
+            <column name="operating_system_name">Windows 7</column>
+            <column name="operating_system_version">NT 6.1</column>
+            <column name="device">-</column>
+            <column name="is64bits">NULL</column>
+        </table>
+        <table name="vanitas_user_agents">
+            <column name="id_user_agent">55</column>
+            <column name="user_agent">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2952.71</column>
+            <column name="is_bot">0</column>
+            <column name="browser_name">Opera</column>
+            <column name="browser_version">54.0.2952.71</column>
+            <column name="rendering_engine">Blink</column>
+            <column name="operating_system_family">Windows</column>
+            <column name="operating_system_name">Windows 10</column>
+            <column name="operating_system_version">NT 10.0</column>
+            <column name="device">-</column>
+            <column name="is64bits">1</column>
+        </table>
+        <table name="vanitas_user_agents">
+            <column name="id_user_agent">56</column>
+            <column name="user_agent">Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0</column>
+            <column name="is_bot">0</column>
+            <column name="browser_name">Mozilla Firefox</column>
+            <column name="browser_version">60.0</column>
+            <column name="rendering_engine">Gecko</column>
+            <column name="operating_system_family">Linux</column>
+            <column name="operating_system_name">-</column>
+            <column name="operating_system_version">-</column>
+            <column name="device">-</column>
+            <column name="is64bits">1</column>
+        </table>
+        <table name="vanitas_user_agents">
+            <column name="id_user_agent">57</column>
+            <column name="user_agent">Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0</column>
+            <column name="is_bot">0</column>
+            <column name="browser_name">Mozilla Firefox</column>
+            <column name="browser_version">62.0</column>
+            <column name="rendering_engine">Gecko</column>
+            <column name="operating_system_family">Linux</column>
+            <column name="operating_system_name">Ubuntu</column>
+            <column name="operating_system_version">-</column>
+            <column name="device">-</column>
+            <column name="is64bits">1</column>
+        </table>
+        <table name="vanitas_user_agents">
+            <column name="id_user_agent">58</column>
+            <column name="user_agent">Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36</column>
+            <column name="is_bot">0</column>
+            <column name="browser_name">Google Chrome</column>
+            <column name="browser_version">41.0.2227.0</column>
+            <column name="rendering_engine">Blink</column>
+            <column name="operating_system_family">Linux</column>
+            <column name="operating_system_name">-</column>
+            <column name="operating_system_version">-</column>
+            <column name="device">-</column>
+            <column name="is64bits">1</column>
+        </table>
+        <table name="vanitas_user_agents">
+            <column name="id_user_agent">59</column>
+            <column name="user_agent">Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36</column>
+            <column name="is_bot">0</column>
+            <column name="browser_name">Google Chrome</column>
+            <column name="browser_version">41.0.2226.0</column>
+            <column name="rendering_engine">Blink</column>
+            <column name="operating_system_family">Windows</column>
+            <column name="operating_system_name">Windows 8.1</column>
+            <column name="operating_system_version">NT 6.3</column>
+            <column name="device">-</column>
+            <column name="is64bits">NULL</column>
+        </table>
+        <table name="vanitas_user_agents">
+            <column name="id_user_agent">60</column>
+            <column name="user_agent">Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2225.0 Safari/537.36</column>
+            <column name="is_bot">0</column>
+            <column name="browser_name">Google Chrome</column>
+            <column name="browser_version">41.0.2225.0</column>
+            <column name="rendering_engine">Blink</column>
+            <column name="operating_system_family">Windows</column>
+            <column name="operating_system_name">Windows 8.1</column>
+            <column name="operating_system_version">NT 6.3</column>
+            <column name="device">-</column>
+            <column name="is64bits">NULL</column>
+        </table>
+        <table name="vanitas_user_agents">
+            <column name="id_user_agent">61</column>
+            <column name="user_agent">Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/1.0; +http://duckduckgo.com)</column>
+            <column name="is_bot">1</column>
+            <column name="browser_name">DuckDuckGo Favicons Bot</column>
+            <column name="browser_version">1.0</column>
+            <column name="rendering_engine">-</column>
+            <column name="operating_system_family">-</column>
+            <column name="operating_system_name">-</column>
+            <column name="operating_system_version">-</column>
+            <column name="device">-</column>
+            <column name="is64bits">NULL</column>
+        </table>
+        <table name="vanitas_user_agents">
+            <column name="id_user_agent">62</column>
+            <column name="user_agent">Mozilla/5.0 (compatible; VelenPublicWebCrawler/1.0; +https://velen.io)</column>
+            <column name="is_bot">1</column>
+            <column name="browser_name">Velen Public Web Crawler</column>
+            <column name="browser_version">1.0</column>
             <column name="rendering_engine">-</column>
             <column name="operating_system_family">-</column>
             <column name="operating_system_name">-</column>
