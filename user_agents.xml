@@ -5,7 +5,7 @@
 - https://www.phpmyadmin.net
 -
 - Hôte : paracinegwmedia.mysql.db
-- Généré le :  Dim 23 fév. 2020 à 21:02
+- Généré le :  Dim 01 mars 2020 à 21:18
 - Version du serveur :  5.6.46-log
 - Version de PHP :  7.2.19
 -->
@@ -31,7 +31,7 @@
                   `is64bits` tinyint(1) DEFAULT NULL,
                   PRIMARY KEY (`id_user_agent`),
                   UNIQUE KEY `user_agent` (`user_agent`)
-                ) ENGINE=InnoDB AUTO_INCREMENT=63 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+                ) ENGINE=InnoDB AUTO_INCREMENT=72 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
             </pma:table>
         </pma:database>
     </pma:structure_schemas>
@@ -766,6 +766,123 @@
             <column name="operating_system_family">-</column>
             <column name="operating_system_name">-</column>
             <column name="operating_system_version">-</column>
+            <column name="device">-</column>
+            <column name="is64bits">NULL</column>
+        </table>
+        <table name="vanitas_user_agents">
+            <column name="id_user_agent">63</column>
+            <column name="user_agent">Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2952.64 (Edition Yx)</column>
+            <column name="is_bot">0</column>
+            <column name="browser_name">Opera</column>
+            <column name="browser_version">54.0.2952.64</column>
+            <column name="rendering_engine">Blink</column>
+            <column name="operating_system_family">Windows</column>
+            <column name="operating_system_name">Windows 7</column>
+            <column name="operating_system_version">NT 6.1</column>
+            <column name="device">-</column>
+            <column name="is64bits">NULL</column>
+        </table>
+        <table name="vanitas_user_agents">
+            <column name="id_user_agent">64</column>
+            <column name="user_agent">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36</column>
+            <column name="is_bot">0</column>
+            <column name="browser_name">Google Chrome</column>
+            <column name="browser_version">76.0.3809.100</column>
+            <column name="rendering_engine">Blink</column>
+            <column name="operating_system_family">Windows</column>
+            <column name="operating_system_name">Windows 10</column>
+            <column name="operating_system_version">NT 10.0</column>
+            <column name="device">-</column>
+            <column name="is64bits">1</column>
+        </table>
+        <table name="vanitas_user_agents">
+            <column name="id_user_agent">65</column>
+            <column name="user_agent">Mozilla/5.0 (compatible; Seekport Crawler; http://seekport.com/)</column>
+            <column name="is_bot">1</column>
+            <column name="browser_name">Seekport Crawler</column>
+            <column name="browser_version">-</column>
+            <column name="rendering_engine">-</column>
+            <column name="operating_system_family">-</column>
+            <column name="operating_system_name">-</column>
+            <column name="operating_system_version">-</column>
+            <column name="device">-</column>
+            <column name="is64bits">NULL</column>
+        </table>
+        <table name="vanitas_user_agents">
+            <column name="id_user_agent">66</column>
+            <column name="user_agent">Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:15.0) Gecko/20100101 Firefox/15.0.1</column>
+            <column name="is_bot">0</column>
+            <column name="browser_name">Mozilla Firefox</column>
+            <column name="browser_version">15.0.1</column>
+            <column name="rendering_engine">Gecko</column>
+            <column name="operating_system_family">Linux</column>
+            <column name="operating_system_name">Ubuntu</column>
+            <column name="operating_system_version">-</column>
+            <column name="device">-</column>
+            <column name="is64bits">1</column>
+        </table>
+        <table name="vanitas_user_agents">
+            <column name="id_user_agent">67</column>
+            <column name="user_agent">Mozilla/5.0 (Windows NT 6.0) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.112 Safari/535.1</column>
+            <column name="is_bot">0</column>
+            <column name="browser_name">Google Chrome</column>
+            <column name="browser_version">13.0.782.112</column>
+            <column name="rendering_engine">WebKit</column>
+            <column name="operating_system_family">Windows</column>
+            <column name="operating_system_name">Windows Vista</column>
+            <column name="operating_system_version">NT 6.0</column>
+            <column name="device">-</column>
+            <column name="is64bits">NULL</column>
+        </table>
+        <table name="vanitas_user_agents">
+            <column name="id_user_agent">68</column>
+            <column name="user_agent">Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)</column>
+            <column name="is_bot">0</column>
+            <column name="browser_name">Internet Explorer</column>
+            <column name="browser_version">8</column>
+            <column name="rendering_engine">Trident</column>
+            <column name="operating_system_family">Windows</column>
+            <column name="operating_system_name">Windows XP</column>
+            <column name="operating_system_version">NT 5.1</column>
+            <column name="device">-</column>
+            <column name="is64bits">NULL</column>
+        </table>
+        <table name="vanitas_user_agents">
+            <column name="id_user_agent">69</column>
+            <column name="user_agent">Mozilla/5.0 (Windows NT 6.1; WOW64; rv:12.0) Gecko/20100101 Firefox/12.0</column>
+            <column name="is_bot">0</column>
+            <column name="browser_name">Mozilla Firefox</column>
+            <column name="browser_version">12.0</column>
+            <column name="rendering_engine">Gecko</column>
+            <column name="operating_system_family">Windows</column>
+            <column name="operating_system_name">Windows 7</column>
+            <column name="operating_system_version">NT 6.1</column>
+            <column name="device">-</column>
+            <column name="is64bits">NULL</column>
+        </table>
+        <table name="vanitas_user_agents">
+            <column name="id_user_agent">70</column>
+            <column name="user_agent">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246</column>
+            <column name="is_bot">0</column>
+            <column name="browser_name">Edge</column>
+            <column name="browser_version">12.246</column>
+            <column name="rendering_engine">EdgeHTML</column>
+            <column name="operating_system_family">Windows</column>
+            <column name="operating_system_name">Windows 10</column>
+            <column name="operating_system_version">NT 10.0</column>
+            <column name="device">-</column>
+            <column name="is64bits">1</column>
+        </table>
+        <table name="vanitas_user_agents">
+            <column name="id_user_agent">71</column>
+            <column name="user_agent">Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9</column>
+            <column name="is_bot">0</column>
+            <column name="browser_name">Safari</column>
+            <column name="browser_version">9.0.2</column>
+            <column name="rendering_engine">WebKit</column>
+            <column name="operating_system_family">Macintosh</column>
+            <column name="operating_system_name">macOS X (El Capitan)</column>
+            <column name="operating_system_version">10.11.2</column>
             <column name="device">-</column>
             <column name="is64bits">NULL</column>
         </table>

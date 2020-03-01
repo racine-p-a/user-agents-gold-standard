@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : paracinegwmedia.mysql.db
--- Généré le :  Dim 23 fév. 2020 à 21:01
+-- Généré le :  Dim 01 mars 2020 à 21:17
 -- Version du serveur :  5.6.46-log
 -- Version de PHP :  7.2.19
 
@@ -102,7 +102,16 @@ INSERT INTO `vanitas_user_agents` (`id_user_agent`, `user_agent`, `is_bot`, `bro
 (59, 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36', 0, 'Google Chrome', '41.0.2226.0', 'Blink', 'Windows', 'Windows 8.1', 'NT 6.3', '-', NULL),
 (60, 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2225.0 Safari/537.36', 0, 'Google Chrome', '41.0.2225.0', 'Blink', 'Windows', 'Windows 8.1', 'NT 6.3', '-', NULL),
 (61, 'Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/1.0; +http://duckduckgo.com)', 1, 'DuckDuckGo Favicons Bot', '1.0', '-', '-', '-', '-', '-', NULL),
-(62, 'Mozilla/5.0 (compatible; VelenPublicWebCrawler/1.0; +https://velen.io)', 1, 'Velen Public Web Crawler', '1.0', '-', '-', '-', '-', '-', NULL);
+(62, 'Mozilla/5.0 (compatible; VelenPublicWebCrawler/1.0; +https://velen.io)', 1, 'Velen Public Web Crawler', '1.0', '-', '-', '-', '-', '-', NULL),
+(63, 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2952.64 (Edition Yx)', 0, 'Opera', '54.0.2952.64', 'Blink', 'Windows', 'Windows 7', 'NT 6.1', '-', NULL),
+(64, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36', 0, 'Google Chrome', '76.0.3809.100', 'Blink', 'Windows', 'Windows 10', 'NT 10.0', '-', 1),
+(65, 'Mozilla/5.0 (compatible; Seekport Crawler; http://seekport.com/)', 1, 'Seekport Crawler', '-', '-', '-', '-', '-', '-', NULL),
+(66, 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:15.0) Gecko/20100101 Firefox/15.0.1', 0, 'Mozilla Firefox', '15.0.1', 'Gecko', 'Linux', 'Ubuntu', '-', '-', 1),
+(67, 'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.112 Safari/535.1', 0, 'Google Chrome', '13.0.782.112', 'WebKit', 'Windows', 'Windows Vista', 'NT 6.0', '-', NULL),
+(68, 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)', 0, 'Internet Explorer', '8', 'Trident', 'Windows', 'Windows XP', 'NT 5.1', '-', NULL),
+(69, 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:12.0) Gecko/20100101 Firefox/12.0', 0, 'Mozilla Firefox', '12.0', 'Gecko', 'Windows', 'Windows 7', 'NT 6.1', '-', NULL),
+(70, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246', 0, 'Edge', '12.246', 'EdgeHTML', 'Windows', 'Windows 10', 'NT 10.0', '-', 1),
+(71, 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9', 0, 'Safari', '9.0.2', 'WebKit', 'Macintosh', 'macOS X (El Capitan)', '10.11.2', '-', NULL);
 
 --
 -- Index pour les tables déchargées
@@ -123,7 +132,7 @@ ALTER TABLE `vanitas_user_agents`
 -- AUTO_INCREMENT pour la table `vanitas_user_agents`
 --
 ALTER TABLE `vanitas_user_agents`
-  MODIFY `id_user_agent` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=63;
+  MODIFY `id_user_agent` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=72;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
