@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : paracinegwmedia.mysql.db
--- Généré le :  Dim 01 mars 2020 à 21:17
--- Version du serveur :  5.6.46-log
--- Version de PHP :  7.2.19
+-- Généré le :  jeu. 25 juin 2020 à 15:57
+-- Version du serveur :  5.6.48-log
+-- Version de PHP :  7.0.33
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -111,7 +111,32 @@ INSERT INTO `vanitas_user_agents` (`id_user_agent`, `user_agent`, `is_bot`, `bro
 (68, 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)', 0, 'Internet Explorer', '8', 'Trident', 'Windows', 'Windows XP', 'NT 5.1', '-', NULL),
 (69, 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:12.0) Gecko/20100101 Firefox/12.0', 0, 'Mozilla Firefox', '12.0', 'Gecko', 'Windows', 'Windows 7', 'NT 6.1', '-', NULL),
 (70, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246', 0, 'Edge', '12.246', 'EdgeHTML', 'Windows', 'Windows 10', 'NT 10.0', '-', 1),
-(71, 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9', 0, 'Safari', '9.0.2', 'WebKit', 'Macintosh', 'macOS X (El Capitan)', '10.11.2', '-', NULL);
+(71, 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9', 0, 'Safari', '9.0.2', 'WebKit', 'Macintosh', 'macOS X (El Capitan)', '10.11.2', '-', NULL),
+(72, 'Mozilla/5.0 (X11; CrOS x86_64 8172.45.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.64 Safari/537.36', 0, 'Google Chrome', '51.0.2704.64', 'Blink', 'ChromeOS', 'ChromeOS', '8172.45.0', '-', 1),
+(73, 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36', 0, 'Google Chrome', '47.0.2526.111', 'Blink', 'Windows', 'Windows 7', 'NT 6.1', '-', NULL),
+(74, 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.0.3705)', 0, 'Internet Explorer', '6.0', 'Trident', 'Windows', 'Windows 2000', 'NT 5.0', '-', 0),
+(75, 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)', 0, 'Internet Explorer', '7.0', 'Trident', 'Windows', 'Windows XP SP2', 'NT 5.1', '-', NULL),
+(76, 'Mozilla/5.0 (X11; U; Linux x86_64; de; rv:1.9.2.8) Gecko/20100723 Ubuntu/10.04 (lucid) Firefox/3.6.8', 0, 'Mozilla Firefox', '3.6.8', 'Gecko', 'Linux', 'Ubuntu', '10.04', '-', 1),
+(77, 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; FSL 7.0.7.01001)', 0, 'Internet Explorer', '6.0', 'Trident', 'Windows', 'Windows XP', 'NT 5.1', '-', NULL),
+(78, 'Opera/9.80 (Windows NT 5.1; U; en) Presto/2.10.289 Version/12.01', 0, 'Opera', '12.01', 'Presto', 'Windows', 'Windows XP', 'NT 5.1', '-', NULL),
+(79, 'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows NT 5.0) Opera 7.02 Bork-edition [en]', 0, 'Opera', '7.02', '-', 'Windows', 'Windows 2000', 'NT 5.0', '-', NULL),
+(80, 'Mozilla/5.0 (Windows NT 5.1; rv:13.0) Gecko/20100101 Firefox/13.0.1', 0, 'Mozilla Firefox', '13.0.1', 'Gecko', 'Windows', 'Windows XP', 'NT 5.1', '-', NULL),
+(81, 'Mozilla/5.0 (Windows NT 6.1; rv:38.0) Gecko/20100101 Firefox/38.0 (IndeedBot 1.1)', 1, 'Mozilla Firefox', '38.0', 'Gecko', 'Windows', 'Windows 7', 'NT 6.1', '-', NULL),
+(82, 'Mozilla/5.0/Firefox/42.0 - nbertaupete95(at)gmail.com', 1, 'Mozilla Firefox', '42.0', 'Gecko', '-', '-', '-', '-', NULL),
+(83, 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/71.0', 0, 'Mozilla Firefox', '71.0', 'Gecko', 'Linux', 'Ubuntu', '-', '-', 1),
+(84, 'Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/10.0.2', 0, 'Mozilla Firefox', '10.0.2', 'Gecko', 'Windows', 'Windows XP', 'NT 5.1', '-', NULL),
+(85, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36', 0, 'Google Chrome', '70.0.3538.102', 'Blink', 'Windows', 'Windows 10', 'NT 10.0', '', 1),
+(86, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362', 0, 'Edge', '-', 'EdgeHTML', 'Windows', 'Windows 10', 'NT 10.0', '', 1),
+(87, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0', 0, 'Mozilla Firefox', '71.0', 'Gecko', 'Windows', 'Windows 10', 'NT 10.0', '', 1),
+(88, 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36', 0, 'Google Chrome', '55.0.2883.87', 'Blink', 'Linux', '-', '-', '', 1),
+(89, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; BuiltWith/1.0; +http://builtwith.com/biup) Chrome/74.0.3729.131 Safari/537.36', 0, 'Google Chrome', '74.0.3729.131', 'Blink', 'Windows', 'Windows 10', 'NT 10.0', '', 1),
+(90, 'Go-http-client/2.0', 1, 'Go Http Client 2.0', '2.0', '-', '-', '-', '-', '', NULL),
+(91, 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36', 0, 'Google Chrome', '78.0.3904.108', 'Blink', 'Linux', '-', '-', '', 1),
+(92, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36', 0, 'Google Chrome', '68.0.3440.106', 'Blink', 'Windows', 'Windows 10', 'NT 10.0', '', 1),
+(93, 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0', 0, 'Mozilla Firefox', '58.0', 'Gecko', 'Linux', 'Ubuntu', '-', '', 1),
+(94, 'Mozilla/5.0 (Linux; U; Android 2.2) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1', 0, 'Android Browser', 'Android Browser', 'WebKit', 'Android', 'Froyo', '2.2', '-', NULL),
+(95, 'Mozilla/5.0 (compatible; DotBot/1.1; http://www.opensiteexplorer.org/dotbot, help@moz.com)', 1, 'DotBot', '1.1', '-', '-', '-', '-', '-', NULL),
+(96, 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:61.0) Gecko/20100101 Firefox/61.0', 0, 'Mozilla Firefox', '61.0', 'Gecko', 'macOS', 'macOS (High Sierra)', '10.13', '', NULL);
 
 --
 -- Index pour les tables déchargées
@@ -132,7 +157,7 @@ ALTER TABLE `vanitas_user_agents`
 -- AUTO_INCREMENT pour la table `vanitas_user_agents`
 --
 ALTER TABLE `vanitas_user_agents`
-  MODIFY `id_user_agent` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=72;
+  MODIFY `id_user_agent` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=97;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
